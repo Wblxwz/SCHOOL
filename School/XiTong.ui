@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XiTong</class>
+ <widget class="QWidget" name="XiTong">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>校园寻路系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="School.qrc">
+    <normaloff>:/School/Picture/tb.png</normaloff>:/School/Picture/tb.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/School/Picture/bk3.png);</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>-4</x>
+     <y>-4</y>
+     <width>1611</width>
+     <height>921</height>
+    </rect>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="currentIndex">
+    <number>-1</number>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="School.qrc"/>
+ </resources>
+ <connections/>
+</ui>

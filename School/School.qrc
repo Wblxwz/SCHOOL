@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/School">
+        <file>Picture/bk1.png</file>
+        <file>Picture/bk2.png</file>
+        <file>Picture/dl.png</file>
+        <file>Picture/zc.png</file>
+        <file>Picture/bk3.png</file>
+        <file>Picture/tb.png</file>
+        <file>Picture/zjm.png</file>
+        <file>Picture/jianjie.png</file>
+        <file>Picture/xgmm.png</file>
+    </qresource>
+</RCC>
